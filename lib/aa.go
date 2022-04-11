@@ -2,10 +2,11 @@ package qrc
 
 import (
 	"bufio"
-	"github.com/qpliu/qrencode-go/qrencode"
 	"fmt"
-	"github.com/mgutz/ansi"
 	"io"
+
+	"github.com/mgutz/ansi"
+	"github.com/qpliu/qrencode-go/qrencode"
 )
 
 func PrintAA(w_in io.Writer, grid *qrencode.BitGrid, inverse bool) {

@@ -1,14 +1,15 @@
 package main
 
 import (
-	"github.com/qpliu/qrencode-go/qrencode"
 	"fmt"
-	"github.com/jessevdk/go-flags"
-	"github.com/mattn/go-colorable"
 	"io/ioutil"
 	"os"
 
-	"github.com/fumiyas/qrc/lib"
+	"github.com/jessevdk/go-flags"
+	qrc "github.com/laoshanxi/qrc/lib"
+	"github.com/mattn/go-colorable"
+	"github.com/qpliu/qrencode-go/qrencode"
+
 	"github.com/fumiyas/go-tty"
 )
 
